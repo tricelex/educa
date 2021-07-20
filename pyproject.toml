@@ -1,0 +1,6 @@
+[tool.black]
+--exclude = 'virtualenv/*'
+
+[tool.isort]
+profile = "black"
+skip = ['virtualenv']
